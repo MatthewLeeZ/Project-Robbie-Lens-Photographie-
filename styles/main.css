@@ -1,0 +1,122 @@
+
+
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* Pages */
+@import 'pages/index.css';
+@import 'pages/a-propos.css';
+@import 'pages/tarifs.css';
+@import 'pages/portfolio.css';
+
+/* Modules */
+@import 'modules/header.css';
+@import 'modules/cta.css';
+@import 'modules/footer.css';
+
+* {
+    margin: 0;
+}
+
+/* Design System */
+:root {
+
+    /* Colors */
+    --color-bg-primary:          #1F2039;     /*fond principal & couleur des titres sur fond blanc*/
+    --color-bg-secondary:        #FFFFFF;    /*header & footer*/
+    --color-accent:              #A5B4FC;    /* border corner & couleur des titres */
+    --color-bg-shape:            #2C2E51;    /*bloc décoratif*/
+    --color-bg-button:      linear-gradient(90deg, #8E86B5, #ACAEED); /* boutons */
+    --color-txt-primary:         #F9F8FF;
+    --color-txt-secondary:       #242424;
+
+    /* Text configuration */
+
+    --font-family-body: 'Manrope';
+    --font-family-header: 'Manrope';
+    --font-family-title: 'Montserrat';
+
+    --font-weight-body: 400;
+    --font-weight-header: 400;
+    --font-weight-title: 400;
+
+    --font-size-lg-body: 1.25rem;  /* accueil */
+    --font-size-md-body: 1rem;  /* A propos */
+    --font-size-sm-body: 0.875rem;  /* Tarifs */
+    --font-size-header: 1.125rem;
+    --font-size-h1-title: 3.4375rem; /* 55px */
+    --font-size-h2-title: 2.1875rem; /* 35px */
+    --font-size-h3-title: 1.25rem;   /* 20px */
+
+    --line-height-sm-body: 1.5rem;  /* 24px Spécifique pour la page Tarifs */
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: var(--font-weight-body);
+    /*font-size: var();*/
+    /*line-height: var();*/
+    color: var(--color-txt-primary);
+}
+
+a {
+    font-style: normal;
+    font-weight: var(--font-weight-body);
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-h1-title);
+    /*line-height: var();*/
+    color: var(--color-accent);
+}
+
+
+h2 {
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-h2-title);
+    /*line-height: var();*/
+    color: var(--color-accent);
+}
+
+h3 {
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-h3-title);
+    /*line-height: var();*/
+    color: var(--color-accent);
+}
+
+section {
+    padding: 5rem;
+}
+
+@media screen and (max-width: 426px) {
+
+    section {
+        padding: 2.75rem;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+
+    section {
+        padding: 2rem;
+    }
+
+}

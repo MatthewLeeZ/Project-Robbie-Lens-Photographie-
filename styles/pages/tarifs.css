@@ -1,0 +1,114 @@
+.tarifs {
+    display: flex;
+    max-width: 1040px;
+    margin: auto;
+    flex-direction: column;  
+}
+
+
+.tarifs--preview {
+    display: none;
+}
+
+.tarifs__content {
+    padding-top: 4.125rem;
+    padding-bottom: 5.3125rem;
+}
+
+.tarifs__title-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+}
+
+.tarifs__cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarifs__card {
+    border-right: 1px var(--color-accent) solid;
+    border-bottom: 1px var(--color-accent) solid;
+    width: 17.375rem;
+    height: 18.4375rem;
+}
+
+.tarifs__card-title {
+    padding-top: 1rem;
+    padding-bottom: 1.3125rem;
+}
+
+.tarifs__card-description {
+    padding-right: 2.375rem;
+    padding-bottom: 2.1875rem;
+    font-size: var(--font-size-sm-body);
+}
+
+.tarifs__price {
+    display: block;
+    font-family: "Montserrat";
+    color: var(--color-accent);
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+.tarifs__info {
+    font-size: 0.625rem;
+}
+
+.tarifs__table-block {
+    padding-bottom: 4.125rem;
+}
+
+.tarifs__subtitle {
+    margin-bottom: 3.1rem;
+}
+
+.tarifs__table, 
+.tarifs__table-header, 
+.tarifs__table-cell {
+    border: 1px var(--color-accent) solid;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.tarifs__table-header {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.tarifs__table-cell {
+    padding: 3.75rem 8.125rem;
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 768px) {
+    .tarifs--preview {
+        display: flex; /* A CONTINUER!!! */
+    }
+
+    .tarifs__title-row {
+        justify-content: center;
+    }
+
+    .tarifs__cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 4.4375rem;
+    }
+
+    .tarifs__content {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .tarifs__title-row {
+        padding-bottom: 3.625rem;
+    }
+
+    .tarifs__title {
+        font-size: 1.56rem;
+    }
+}

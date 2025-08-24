@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="appBar">
+        <nav class="appBar__nav">
+            <a href="index.html" >
+                <img src="assets/img/logo.jpg" alt="logo Robbie Lens" class="appBar__logo">
+            </a>
+            <ul class="appBar__nav-list appBar__nav-list--desktop">
+                <li><a href="index.html"  class="appBar__nav-item">Accueil</a></li>
+                <li><a href="a-propos.html" class="appBar__nav-item">A propos</a></li>
+                <li><a href="tarifs.html" class="appBar__nav-item">Tarifs</a></li>
+                <li><a href="portfolio.html" class="appBar__nav-item">Portfolio</a></li>
+            </ul>
+            <ul class="appBar__nav-list appBar__nav-list--mobile">
+                <li><a href="index.html"  class="appBar__nav-item">Accueil</a></li>
+                <li><a href="#highlight" class="appBar__nav-item">Photos</a></li>
+                <li><a href="#message" class="appBar__nav-item">Contact</a></li>
+                <li><a href="#tarifs--preview" class="appBar__nav-item">Tarifs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Robbie Lens Photographie</h1>
+            <p class="hero__description">
+                Où professionalisme s’allie avec passion. Depuis plus de 5 ans maintenant, 
+                j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.
+            </p>
+            <div class="hero__cta-wrapper">
+                <a class="cta" href="#message">UN PROJET ? ÉCRIVEZ-MOI</a>
+            </div>
+        </div>
+        <div class="hero__visual">
+            <img src="assets/img/robbie-lens.png" alt="portrait robbie lens glitch" class="hero__image">
+            <div class="hero__decoration"></div>
+        </div>
+    </section>
+    <section class="highlight" id="highlight">
+        <h2 class="highlight__title">Mon dernier projet</h2>
+        <div class="highlight__row">
+            <img src="assets/img/paysage_cote_falaise.jpg" alt="paysage cote falaise" class="highlight__image">
+            <img src="assets/img/paysage_source_eau_chaude.jpg" alt="paysage source eau chaude" class="highlight__image">
+            <img src="assets/img/paysage_cote_sable.jpg" alt="paysage cote sable" class="highlight__image">
+        </div>
+        <div class="highlight__row highlight__row--bottom">
+            <img src="assets/img/paysage_ponton.jpg" alt="paysage ponton" class="highlight__image">
+            <img src="assets/img/paysage_cote_montagne.jpg" alt="paysage cote montagne" class="highlight__image">
+            <img src="assets/img/paysage_cote_montagne_arbre.jpg" alt="paysage cote montagne arbre" class="highlight__image">
+        </div>
+        <a class="cta highlight__link" href="portfolio.html">VOIR MON PORTFOLIO</a>
+    </section>
+    <section class="contact">
+        <h2 class="contact__title" id="message">Parlons de votre projet</h2>
+        <form action="" method="get" class="contact__form">
+            <div class="contact__form-wrapper">
+                <div class="contact__form-group">
+                    <div class="contact__field">
+                        <label for="nom" class="contact__label">nom</label>
+                        <input type="text" name="nom" id="nom" placeholder="Ex. : Matthew" class="contact__input contact__input--field">
+                    </div>
+                    <div class="contact__field">
+                        <label for="email" class="contact__label">email</label>
+                        <input type="email" name="email" id="email" class="contact__input contact__input--field">
+                    </div>
+                </div>
+                    <label for="message" class="contact__label">message</label>
+                    <textarea name="message" id="message" placeholder="L’éveil véritable est dans chaque instant." class="contact__input contact__input--textarea" rows="10"></textarea>
+            </div>
+            <input type="submit" value="ENVOYER" class="cta contact__submit">
+        </form>
+    </section>
+    <section class="tarifs tarifs--preview" id="tarifs--preview">
+            <div class="tarifs__content">
+                <div class="tarifs__title-row">
+                    <h2 class="tarifs__title">Tarifs</h1>
+                </div>
+                <div class="tarifs__cards-container">
+                    <div class="tarifs__card">
+                        <h3 class="tarifs__card-title">Shooting photo</h3>
+                        <p class="tarifs__card-description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+                        <strong class="tarifs__price">350€/demi journée</strong>
+                        <small class="tarifs__info">Matériel, déplacement inclus</small>
+                    </div>
+                    <div class="tarifs__card">
+                        <h3 class="tarifs__card-title">Retouches</h3>
+                        <p class="tarifs__card-description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+                        <strong class="tarifs__price">550€/demi journée</strong>
+                        <small class="tarifs__info">2 allez/retours par photo</small>
+                    </div>
+                    <div class="tarifs__card">
+                        <h3 class="tarifs__card-title">Album photos</h3>
+                        <p class="tarifs__card-description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+                        <strong class="tarifs__price">400€ album A4</strong>
+                        <small class="tarifs__info">30 pages recto/verso</small>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <a href="index.html">
+            <img src="assets/img/logo.jpg" alt="logo Robbie Lens" class="footer__logo">
+        </a>
+        <div class="footer__socials">
+            <a target="_blank" href="#" class="footer__social-link">
+                <img src="assets/img/i.jpg" alt="logo reseaux anti sociaux 1">
+            </a>
+            <a target="_blank" href="#" class="footer__social-link">
+                <img src="assets/img/t.jpg" alt="logo reseaux anti sociaux 2">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/redirect-mobile.js"></script> 
+</body>
+</html>

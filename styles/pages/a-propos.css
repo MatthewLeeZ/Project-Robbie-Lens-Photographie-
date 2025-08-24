@@ -1,0 +1,89 @@
+.portrait__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 3.75rem;
+}
+
+.portrait__rows {
+    max-width: 1064px;
+}
+
+.portrait__row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portrait__image {
+    width: 12rem;
+}
+
+.portrait__decoration {
+    background-color: var(--color-bg-shape);
+    width: 38.4375rem;
+    height: 25.8125rem;
+    position: absolute;
+    z-index: -1;
+    right: 4.55rem;
+    top: 3.1875rem;
+}
+
+.apropos {
+    display: flex;
+    max-width: 725px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.apropos__title-wrapper {
+    text-align: left;
+}
+
+.apropos__title {
+    margin-bottom: 6.3125rem;
+}
+
+.apropos__content {
+    font-size: var(--font-size-md-body);
+    position: relative;
+    width: 100%;
+    max-width: 516px;
+    margin: auto;
+}
+
+.apropos__description {
+    margin-bottom: 1.5rem;
+}
+
+.apropos__subtitle {
+    color: var(--color-txt-primary);
+    margin-bottom: 1.5rem;
+    font-family: "Manrope";
+    font-size: 1.25rem;
+}
+
+
+.apropos__item {
+    margin-bottom: .2rem;
+}
+
+.apropos__decoration {
+    width: 19.6875rem;
+    height: 25.4375rem;
+    border-right: 1px var(--color-accent) solid;
+    border-bottom: 1px var(--color-accent) solid;
+    position: absolute;
+    top: -1.5625rem;
+    left: 18.75rem;
+}
+
+.apropos__cta-wrapper {
+    margin: auto;
+}
+
+.apropos__btn {
+    margin-top: 9.6875rem;
+}
