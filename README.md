@@ -1,4 +1,8 @@
-# Robbie Lens Photographie  
+# ✨📸 Robbie Lens Photographie 📸✨
+
+🌐 [Voir le site en ligne](https://matthewleez.github.io/Project-Robbie-Lens-Photographie-/) 🌐
+
+---
 
 Un projet de site vitrine responsive pour un photographe fictif. Réalisé dans le cadre de ma formation en développement front-end.  
 
@@ -16,19 +20,19 @@ Reproduire une maquette Figma en HTML/CSS, en mettant en pratique :
 - **JavaScript (redirect-mobile.js)**  
 - **Figma** pour la conception et le découpage de la maquette  
 
-## 📸 Aperçu  
+## 🖼️ Aperçu  
 
 ### 🔹 Maquette Figma (Découpage)  
-👉 [Voir la maquette sur Figma](https://www.figma.com/design/u4xOXhmyVGzpIqBAcvO1kz/Maquette-HTML---CSS-desktop---mobile---decoupage?node-id=193601-78)  
+🌐 [Voir la maquette sur Figma](https://www.figma.com/design/u4xOXhmyVGzpIqBAcvO1kz/Maquette-HTML---CSS-desktop---mobile---decoupage?node-id=193601-78)  
 
-[Découpage Index HTML](assets/img/decoupageIndexHTML.jpg)  
-[Textes](assets/img/textes.jpg)  
+- [Découpage d'index.html](assets/img/decoupageIndexHTML.jpg)  
+- [Design system textes](assets/img/textes.jpg)  
 
 ### 🔹 Site – Vue Desktop  
-[Screenshot Index HTML](assets/img/screenshotIndexHTML.png)  
+- [Screenshot index.html vue desktop](assets/img/screenshotIndexHTML.png)  
 
 ### 🔹 Site – Vue Mobile  
-[Screenshot Index HTML Mobile](assets/img/screenshotIndexHTMLmobileView.png)  
+- [Screenshot index.html vue mobile](assets/img/screenshotIndexHTMLmobileView.png)  
 
 ## 🚀 Fonctionnalités  
 - Navigation responsive adaptée aux différentes résolutions  
